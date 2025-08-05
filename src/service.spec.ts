@@ -14,7 +14,7 @@ describe("SomeService", () => {
     expect(parameter).toBeTruthy();
   });
 
-  it("should not report extra variable", () => {
+  it("should report extra variable", () => {
     const mockedMethod = jest.mocked(service.method);
     const parameter = mockedMethod.mock.calls[0][0];
     expect(parameter).toBeTruthy();
