@@ -27,7 +27,7 @@ export default tseslint.config(
     extends: [jest.configs["flat/recommended"], jest.configs["flat/style"]],
     rules: {
       "@typescript-eslint/unbound-method": "off",
-      "jest/unbound-method": "warn",
+      "jest/unbound-method": "error",
     },
   }
 );
