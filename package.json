@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "scripts": {
+    "lint": "eslint"
+  },
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "eslint": "^9.32.0",
+    "eslint-plugin-jest": "^29.0.1",
+    "jest": "^30.0.5",
+    "typescript": "^5.9.2",
+    "typescript-eslint": "^8.39.0"
+  }
+}

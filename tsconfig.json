@@ -1,0 +1,8 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "compilerOptions": {
+    "outDir": "./dist/out-tsc",
+    "strict": true,
+    "target": "es2024"
+  }
+}
